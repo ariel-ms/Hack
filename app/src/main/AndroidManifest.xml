@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Informacion" />
-        <activity android:name=".Modelo"></activity>
+        <activity android:name=".Modelo" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".Nivel"></activity>
     </application>
 
 </manifest>
