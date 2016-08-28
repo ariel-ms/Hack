@@ -18,17 +18,14 @@ public class Base {
         state = false;
         matricula = null;
         password = null;
-        est = null;
     }
 
     public void agregarEstudiante(String matricula, String password){
+        base = new HashMap<String,Estudiante>();
         est = new Estudiante();
         est.setMatricula(matricula.toLowerCase());
         est.setPassword(password);
         base.put(matricula.toLowerCase(),est);
-        /*String matri = estudiante.getMatricula();
-        matri = matri.toLowerCase();
-        base.put(matri,)*/
     }
 
 

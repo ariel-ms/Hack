@@ -29,6 +29,7 @@
         android:layout_marginTop="15dp"/>
 
     <EditText
+        android:id="@+id/matriculaRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/matricula"
@@ -36,6 +37,7 @@
         android:layout_marginTop="15dp"/>
 
     <EditText
+        android:id="@+id/passwordRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/contraseña"
@@ -49,4 +51,6 @@
         android:text="@string/registrar"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"/>
+
+
 </LinearLayout>
