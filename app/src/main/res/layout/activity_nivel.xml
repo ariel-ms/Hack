@@ -44,6 +44,17 @@
             android:src="@drawable/borrego"
             android:layout_marginTop="15dp"
             android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedir un libro"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iztaccihuatl"
+            android:layout_gravity="center_horizontal"/>
     </LinearLayout>
 
 </ScrollView>
