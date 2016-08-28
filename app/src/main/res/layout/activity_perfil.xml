@@ -6,20 +6,22 @@
     tools:context="com.example.android.lideres.Perfil">
 
 
-    <Button
+    <!-- <Button
         android:id="@+id/botonServicios"
         android:text="@string/botonServicios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="15dp"/>
+        android:layout_marginBottom="15dp"/> -->
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="37dp"></TableRow>
+    <Spinner
+        android:id="@+id/niveles"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        />
 
 </RelativeLayout>
