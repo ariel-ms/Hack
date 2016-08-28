@@ -12,6 +12,7 @@ public class LogIn extends AppCompatActivity implements View.OnClickListener{
     Button login;
     Button singin;
 
+    EditText matricula;
 
     EditText matriRegistro;
     EditText passRegistro;
@@ -32,13 +33,15 @@ public class LogIn extends AppCompatActivity implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         Intent intent;
-
+        Base base = new Base();
         switch(view.getId()){
             case R.id.login:
-
+                /*if (base.encontrar()){
+                    
+                }*/
                 break;
             case R.id.singin:
-                Base base = new Base();
+
                 //System.out.print(matriRegistro.getText().toString()+" "+passRegistro.getText().toString());
                 base.agregarEstudiante(matriRegistro.getText().toString(), passRegistro.getText().toString());
                 Toast.makeText(getApplicationContext(), "Datos ingresados", Toast.LENGTH_SHORT).show();
