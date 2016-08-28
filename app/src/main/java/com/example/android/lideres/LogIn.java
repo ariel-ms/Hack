@@ -25,7 +25,7 @@ public class LogIn extends AppCompatActivity implements View.OnClickListener{
 
         switch(view.getId()){
             case R.id.login:
-
+            Estudiante estudiante = new Estudiante();
                 break;
         }
     }
