@@ -27,12 +27,16 @@ public class Base {
         base.put(matricula.toLowerCase(),est);
     }
 
-    public Map<String,Estudiante> getData(){
-        return (Map<String, Estudiante>) ((HashMap)base).clone();
+    public HashMap<String,Estudiante> getData(){
+        return (HashMap<String, Estudiante>) ((HashMap)base).clone();
+    }
+
+    public void setData(HashMap<String,Estudiante> data){
+        this.base = data;
     }
 
     public boolean encontrar(String matricula, String contraseña){
-        return base.containsValue(matricula.toLowerCase());
+        return (base.containsValue(matricula.toLowerCase())) && (base.get(matricula.toLowerCase()).getPassword().equals(contraseña));
     }
 
 }
