@@ -17,4 +17,5 @@
     <string name="matricula">Matricula</string>
     <string name="contraseña">Contraseña</string>
     <string name="ingresar">Ingresar</string>
+    <string name="registrar">Registrar</string>
 </resources>

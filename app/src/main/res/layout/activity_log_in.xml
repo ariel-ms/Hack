@@ -21,9 +21,32 @@
         android:layout_marginTop="15dp"/>
 
     <Button
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ingresar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/matricula"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/contraseña"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/singin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"/>
 </LinearLayout>
