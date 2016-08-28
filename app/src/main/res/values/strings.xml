@@ -13,5 +13,8 @@
     <string name="botonservicios">Servicios</string>
     <string name="serviciosComida">Servicios de Comida</string>
     <string name="pedirLibro">Pedir un libro</string>
-    <string name="concierto">"Conciertos"</string>
+    <string name="concierto">Conciertos</string>
+    <string name="matricula">Matricula</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
 </resources>
