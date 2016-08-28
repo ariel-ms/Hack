@@ -19,7 +19,8 @@
         <activity android:name=".Modelo" />
         <activity android:name=".Perfil" />
         <activity android:name=".Nivel" />
-        <activity android:name=".Nivel2"></activity>
+        <activity android:name=".Nivel2" />
+        <activity android:name=".Nivel3"></activity>
     </application>
 
 </manifest>

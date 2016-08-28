@@ -18,12 +18,14 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:src="@drawable/connect"
             android:scaleType="fitXY"/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="250dp"
+            android:layout_marginTop="15dp"
             android:src="@drawable/carrera"
             android:scaleType="fitXY"/>
     </LinearLayout>
