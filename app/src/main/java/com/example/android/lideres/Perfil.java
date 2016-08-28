@@ -1,16 +1,19 @@
 package com.example.android.lideres;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 
-public class Perfil extends AppCompatActivity implements AdapterView.OnItemSelectedListener{
-
+public class Perfil extends AppCompatActivity implements AdapterView.OnItemSelectedListener, View.OnClickListener{
+    ImageButton face;
+    ImageButton twit;
     Button servicios;
     Spinner spinner;
 
@@ -26,18 +29,34 @@ public class Perfil extends AppCompatActivity implements AdapterView.OnItemSelec
         spinner.setAdapter(adapter);
         //servicios.setOnClickListener(this);
         spinner.setOnItemSelectedListener(this);
+
+        face = (ImageButton) findViewById(R.id.Facebook);
+        twit = (ImageButton) findViewById(R.id.twitter);
+
+        face.setOnClickListener(this);
+        twit.setOnClickListener(this);
     }
 
-    /*@Override
+    @Override
     public void onClick(View v) {
         Intent intent;
         switch (v.getId()){
-            case R.id.botonServicios:
-                intent = new Intent(Perfil.this,Nivel.class);
+            case R.id.Facebook:
+                intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://www.facebook.com/LDM.ITESM"));
+                startActivity(intent);
+                break;
+            case R.id.twitter:
+                intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                intent.setData(Uri.parse("https://twitter.com/LideresdlManana?lang=es"));
                 startActivity(intent);
                 break;
         }
-    }*/
+    }
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
