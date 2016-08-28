@@ -14,6 +14,11 @@
     <string name="serviciosComida">Servicios de Comida</string>
     <string name="pedirLibro">Pedir un libro</string>
     <string name="concierto">Conciertos</string>
+    <string name="perfilTitulo">Tus datos de perfil</string>
+    <string name="nombre">Ariel Emendez</string>
+    <string name="carrera">ITC</string>
+    <string name="matriculaValor">A012345678</string>
+    <string name="descripcion">Tu tienes beneficios de Nivel 1.</string>
     <string name="matricula">Matricula</string>
     <string name="contraseña">Contraseña</string>
     <string name="ingresar">Ingresar</string>
