@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.botonLog:
-                intent = new Intent(MainActivity.this,Perfil.class);
+                intent = new Intent(MainActivity.this,LoginActivity.class);
                 startActivity(intent);
         }
     }
