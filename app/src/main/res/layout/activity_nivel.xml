@@ -21,7 +21,7 @@
             android:layout_marginBottom="10sp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:background="#8080ff"
-            android:text="Servicios de Comida"
+            android:text="@string/serviciosComida"
             android:id="@+id/textView" />
 
         <ImageButton
@@ -67,7 +67,7 @@
             android:layout_marginBottom="10sp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:background="#8080ff"
-            android:text="Pedir un libro"/>
+            android:text="@string/pedirLibro"/>
 
         <ImageButton
             android:layout_width="wrap_content"
