@@ -9,8 +9,16 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#068CD4"
         android:src="@drawable/lider"
         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,7 +30,7 @@
         android:id="@+id/modelo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/modelo"
+        android:text="@string/modeloTitulo"
         android:layout_marginTop="15dp"
         android:layout_gravity="center_horizontal"/>
     <Button
