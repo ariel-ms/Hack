@@ -5,11 +5,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.lideres.Perfil">
 
+
     <Button
-        android:id="@+id/botonPerfil"
+        android:id="@+id/botonServicios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/botonperfil"
+        android:text="@string/botonservicios"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="15dp"/>

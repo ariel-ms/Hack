@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     Button informacion;
     Button modelo;
+    Button servicios;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +18,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         informacion = (Button) findViewById(R.id.botonInfo);
         modelo = (Button) findViewById(R.id.modelo);
+        servicios = (Button) findViewById(R.id.botonPerfil);
+
         modelo.setOnClickListener(this);
         informacion.setOnClickListener(this);
+        servicios.setOnClickListener(this);
     }
 
 
@@ -34,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(MainActivity.this, Modelo.class);
                 startActivity(intent);
                 break;
+            case R.id.botonPerfil:
+                intent = new Intent(MainActivity.this,Perfil.class);
+                startActivity(intent);
         }
     }
 }
