@@ -18,7 +18,8 @@
         <activity android:name=".Informacion" />
         <activity android:name=".Modelo" />
         <activity android:name=".Perfil" />
-        <activity android:name=".Nivel"></activity>
+        <activity android:name=".Nivel" />
+        <activity android:name=".Nivel2"></activity>
     </application>
 
 </manifest>
