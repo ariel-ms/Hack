@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.lideres.Informacion">
+    tools:context="com.example.android.lideres.Informacion"
+    android:weightSum="1">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -13,10 +14,10 @@
         android:scaleType="centerCrop"/>
 
     <TextView
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/infoL"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp" />
 
 </LinearLayout>
